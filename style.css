@@ -285,3 +285,58 @@ header {
   gap: 15px;
   font-size: 18px;
 }
+
+/* Think Section */
+.think-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  background-color: white;
+}
+
+.think-section .container {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+
+.think-section .think-left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.think-left h2 {
+  font-size: 42px;
+  font-weight: 800;
+}
+
+.think-left p {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(77, 77, 77);
+  text-align: center;
+}
+.think-right .btn {
+  display: flex;
+  gap: 20px;
+  margin: o auto;
+}
+
+.think-right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.think-right p {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(77, 77, 77);
+  text-align: center;
+}
