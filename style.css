@@ -234,3 +234,54 @@ header {
   text-align: center;
   margin-bottom: 55px;
 }
+
+/* Brain Section */
+
+.brain-section {
+  padding: 50px 0;
+  background-color: white;
+}
+
+.brain-section .container {
+  display: flex;
+  gap: 70px;
+}
+
+.brain-left-section img {
+  height: 580px;
+}
+
+.brain-section .brain-right-section {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.brain-right-section p {
+  font-size: 17px;
+  font-weight: 500;
+  color: #05ab02;
+}
+
+.brain-right-section p:nth-child(3) {
+  color: rgb(96, 95, 95);
+  margin-bottom: 20px;
+}
+
+.brain-right-section .brain-title {
+  font-size: 45px;
+  font-weight: 800;
+}
+
+.brain-right-section .brain-lists {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+}
+
+.brain-lists li {
+  display: flex;
+  gap: 15px;
+  font-size: 18px;
+}
